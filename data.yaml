@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['chopstick', 'egg', 'empty', 'hand', 'kimchi', 'lettuce', 'pepper', 'pork', 'rice', 'ssamjang']
+
+roboflow:
+  workspace: new-workspace-z5epf
+  project: tofu-ezeta
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-z5epf/tofu-ezeta/dataset/3
